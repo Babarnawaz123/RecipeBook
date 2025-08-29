@@ -26,7 +26,7 @@ export default function Signin() {
 
   return (
     <div className="max-w-md mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Welcome back</h2>
+      <h2 className="text-2xl font-bold mb-4">Sign In</h2>
       {error && <p className="mb-3 text-red-600">{error}</p>}
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
